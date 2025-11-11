@@ -2,9 +2,19 @@
 <html lang="vi">
 
 <head>
-    <title>HKL Shop - Liên hệ</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liên hệ HKL Shop — Hỗ trợ đặt hàng, đổi trả & địa chỉ cửa hàng</title>
+    <meta name="description" content="Liên hệ HKL Shop — Hỗ trợ đặt hàng, đổi trả, thông tin cửa hàng tại TP. Hồ Chí Minh. Gọi 010-020-0340 hoặc email info@company.com để được hỗ trợ.">
+    <link rel="canonical" href="https://yourdomain.com/contact.html">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Liên hệ HKL Shop — Hỗ trợ & Địa chỉ">
+    <meta property="og:description" content="Liên hệ HKL Shop để được hỗ trợ đặt hàng, đổi trả và thông tin cửa hàng tại TP. Hồ Chí Minh.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/contact.html">
+    <meta property="og:image" content="https://yourdomain.com/assets/img/share-contact.jpg">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -12,24 +22,45 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
-    <!-- Load map styles -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-<!--
-    
-TemplateMo 559 Zay Cửa hàng
+    <!-- Fonts and map styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="" crossorigin="">
 
-https://templatemo.com/tm-559-zay-shop
+    <!-- JSON-LD Schema LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "HKL Shop",
+      "image": "https://yourdomain.com/assets/img/shop_06.jpg",
+      "@id": "https://yourdomain.com/contact.html",
+      "url": "https://yourdomain.com/contact.html",
+      "telephone": "010-020-0340",
+      "email": "info@company.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Đường ABC",
+        "addressLocality": "Quận XYZ",
+        "addressRegion": "TP. Hồ Chí Minh",
+        "postalCode": "700000",
+        "addressCountry": "VN"
+      },
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "sameAs": [
+        "https://facebook.com/yourpage",
+        "https://www.instagram.com/yourprofile"
+      ]
+    }
+    </script>
 
--->
+    <!-- Basic performance hints -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <!-- Start Top Nav -->
+    <!-- Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
@@ -40,82 +71,59 @@ https://templatemo.com/tm-559-zay-shop
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                 </div>
                 <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    <a class="text-light" href="https://facebook.com/yourpage" target="_blank" rel="noopener"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/yourprofile" target="_blank" rel="noopener"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/yourprofile" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- Close Top Nav -->
-
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zay
-            </a>
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">HKL Shop</a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Trang chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Giới thiệu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Cửa hàng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Liên hệ</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Cửa hàng</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileTìm kiếm" placeholder="Tìm kiếm ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none" href="cart.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none" href="account.html">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
                     </a>
                 </div>
             </div>
-
         </div>
     </nav>
-    <!-- Close Header -->
 
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+    <!-- Search Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
             </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+            <form action="/search" method="get" class="modal-content modal-body border-0 p-0">
                 <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalTìm kiếm" name="q" placeholder="Tìm kiếm ...">
+                    <input type="search" class="form-control" id="inputModalSearch" name="q" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm">
                     <button type="submit" class="input-group-text bg-success text-light">
                         <i class="fa fa-fw fa-search text-white"></i>
                     </button>
@@ -124,127 +132,129 @@ https://templatemo.com/tm-559-zay-shop
         </div>
     </div>
 
-
-    <!-- Start Content Page -->
+    <!-- Content Intro -->
     <div class="container-fluid bg-light py-5">
-        <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Liên hệ Us</h1>
-            <p>
-                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet.
+        <div class="col-md-8 m-auto text-center">
+            <h1 class="h1">Liên hệ HKL Shop</h1>
+            <p class="lead">
+                Liên hệ với chúng tôi để được hỗ trợ đặt hàng, đổi trả hoặc nhận thông tin cửa hàng. Thời gian phản hồi trung bình: trong vòng 24 giờ.
             </p>
         </div>
     </div>
 
-    <!-- Start Map -->
-    <div id="mapid" style="width: 100%; height: 300px;"></div>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <script>
-        var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
+    <!-- Map -->
+    <div id="mapid" style="width: 100%; height: 360px;" aria-label="Bản đồ địa chỉ cửa hàng HKL Shop"></div>
 
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-            maxZoom: 18,
-            attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            id: 'mapbox/streets-v11',
-            tileSize: 512,
-            zoomOffset: -1
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="" crossorigin=""></script>
+    <script>
+        // Tọa độ TP. Hồ Chí Minh (ví dụ: Quận 1)
+        var mymap = L.map('mapid').setView([10.776530, 106.700981], 14);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: 'Bản đồ © OpenStreetMap contributors'
         }).addTo(mymap);
 
-        L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
-            .bindPopup("<b>Zay</b> eCommerce Template<br />Location.").openPopup();
+        L.marker([10.776530, 106.700981]).addTo(mymap)
+            .bindPopup("<b>HKL Shop</b><br>123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh").openPopup();
 
         mymap.scrollWheelZoom.disable();
         mymap.touchZoom.disable();
     </script>
-    <!-- Ena Map -->
 
-    <!-- Start Liên hệ -->
+    <!-- Contact Section -->
     <div class="container py-5">
         <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
-                <div class="row">
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputname">Họ và tên</label>
-                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Họ và tên">
+            <div class="col-md-9 m-auto">
+                <h2 class="h4 mb-3">Gửi phản hồi hoặc câu hỏi</h2>
+                <form id="contactForm" method="post" action="/contact/submit" role="form" novalidate>
+                    <div class="row">
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Họ và tên" required aria-required="true" aria-label="Họ và tên">
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="email">Địa chỉ email</label>
+                            <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Địa chỉ email" required aria-required="true" aria-label="Địa chỉ email">
+                        </div>
                     </div>
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputemail">Địa chỉ email</label>
-                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Địa chỉ email">
+
+                    <div class="mb-3">
+                        <label for="subject">Chủ đề</label>
+                        <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Chủ đề" required aria-required="true" aria-label="Chủ đề">
                     </div>
-                </div>
-                <div class="mb-3">
-                    <label for="inputsubject">Chủ đề</label>
-                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Chủ đề">
-                </div>
-                <div class="mb-3">
-                    <label for="inputmessage">Nội dung</label>
-                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Nội dung" rows="8"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">Gửi liên hệ</button>
+
+                    <div class="mb-3">
+                        <label for="message">Nội dung</label>
+                        <textarea class="form-control mt-1" id="message" name="message" placeholder="Nội dung" rows="8" required aria-required="true" aria-label="Nội dung"></textarea>
                     </div>
+
+                    <!-- Spam prevention placeholder: triển khai reCAPTCHA server-side nếu cần -->
+                    <div class="row">
+                        <div class="col text-end mt-2">
+                            <button type="submit" class="btn btn-success btn-lg px-3">Gửi liên hệ</button>
+                        </div>
+                    </div>
+
+                    <!-- Success / Error messages (JS sẽ hiển thị) -->
+                    <div id="contactFormMessage" class="mt-3" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+
+            <!-- Sidebar contact info -->
+            <aside class="col-md-3">
+                <div class="card p-3 mb-3">
+                    <h3 class="h6">Thông tin cửa hàng</h3>
+                    <p class="mb-1"><strong>Địa chỉ:</strong> 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                    <p class="mb-1"><strong>Điện thoại:</strong> <a href="tel:010-020-0340">010-020-0340</a></p>
+                    <p class="mb-1"><strong>Email:</strong> <a href="mailto:info@company.com">info@company.com</a></p>
+                    <p class="mb-0"><strong>Giờ mở cửa:</strong> T2-T7 09:00 - 18:00</p>
                 </div>
-            </form>
+                <div class="card p-3">
+                    <h3 class="h6">Kênh hỗ trợ nhanh</h3>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="https://m.me/yourpage" target="_blank" rel="noopener">Trò chuyện Facebook</a></li>
+                        <li><a href="/faq.html">Câu hỏi thường gặp</a></li>
+                        <li><a href="/returns.html">Hướng dẫn đổi trả</a></li>
+                    </ul>
+                </div>
+            </aside>
         </div>
     </div>
-    <!-- End Liên hệ -->
 
-
-    <!-- Start Footer -->
-     <!-- Chân trang -->
+    <!-- Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-success border-bottom pb-3 border-light logo">HKL Shop</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none"
-                                href="mailto:info@company.com">info@company.com</a>
-                        </li>
+                        <li><i class="fas fa-map-marker-alt fa-fw"></i> 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</li>
+                        <li><i class="fa fa-phone fa-fw"></i> <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a></li>
+                        <li><i class="fa fa-envelope fa-fw"></i> <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Sản phẩm</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="https://giovannioutlet.com/">Thời trang cao cấp</a></li>
-                        <li><a class="text-decoration-none" href="https://trekking.com.vn/">Đồ thể thao</a></li>
-                        <li><a class="text-decoration-none" href="https://www.nike.com/">Giày nam</a></li>
-                        <li><a class="text-decoration-none" href="https://www.fwrd.com/">Giày nữ</a></li>
-                        <li><a class="text-decoration-none" href="https://miss-rosier.com/collections/melbourne">Đầm nữ
-                                cao cấp</a></li>
-                        <li><a class="text-decoration-none"
-                                href="https://www.coolmate.me/collection/quan-ao-phu-kien-tap-gym">Phụ kiện tập gym</a>
-                        </li>
-                        <li><a class="text-decoration-none" href="https://supersports.com.vn/">Giày thể thao</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Thời trang cao cấp</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Đồ thể thao</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Giày nam</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Giày nữ</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Thông tin thêm</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Trang chủ</a></li>
-                        <li><a class="text-decoration-none" href="#">Về chúng tôi</a></li>
-                        <li><a class="text-decoration-none" href="#">Địa chỉ cửa hàng</a></li>
-                        <li><a class="text-decoration-none" href="#">Câu hỏi thường gặp</a></li>
-                        <li><a class="text-decoration-none" href="#">Liên hệ</a></li>
+                        <li><a class="text-decoration-none" href="index.html">Trang chủ</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Về chúng tôi</a></li>
+                        <li><a class="text-decoration-none" href="/store-locations.html">Địa chỉ cửa hàng</a></li>
+                        <li><a class="text-decoration-none" href="/faq.html">Câu hỏi thường gặp</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
-
             </div>
 
             <div class="row text-light mb-4">
@@ -254,29 +264,21 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-auto me-auto">
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a rel="nofollow" class="text-light text-decoration-none" target="_blank"
-                                href="http://fb.com/templatemo"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            <a rel="nofollow" class="text-light text-decoration-none" target="_blank" href="https://facebook.com/yourpage"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank"
-                                href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/yourprofile"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i
-                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank"
-                                href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/yourprofile"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-auto">
                     <label class="sr-only" for="subscribeEmail">Địa chỉ email</label>
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
-                            placeholder="Nhập email của bạn">
-                        <div class="input-group-text btn-success text-light">Đăng ký</div>
+                        <input type="email" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Nhập email của bạn" aria-label="Nhập email của bạn">
+                        <button class="input-group-text btn-success text-light" id="subscribeBtn" type="button">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -286,29 +288,58 @@ https://templatemo.com/tm-559-zay-shop
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-12">
-                        <p class="text-left text-light">
-                            Bản quyền &copy; 2025 HKL Shop |
-                            Thiết kế bởi <a rel="sponsored" href="https://templatemo.com/page/1"
-                                target="_blank">TemplateMo</a>
+                        <p class="text-left text-light mb-0">
+                            Bản quyền &copy; 2025 HKL Shop | Thiết kế bởi <a rel="sponsored" href="https://templatemo.com/page/1" target="_blank" class="text-decoration-none">TemplateMo</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
 
-    <!-- End Footer -->
+    <!-- Scripts (defer where appropriate) -->
+    <script src="assets/js/jquery-1.11.0.min.js" defer></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js" defer></script>
+    <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/templatemo.js" defer></script>
+    <script src="assets/js/custom.js" defer></script>
 
-    <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <!-- End Script -->
+    <!-- Minimal client-side validation & UX -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.getElementById('contactForm');
+            var messageBox = document.getElementById('contactFormMessage');
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                // Basic client-side validation
+                var name = form.name.value.trim();
+                var email = form.email.value.trim();
+                var subject = form.subject.value.trim();
+                var message = form.message.value.trim();
+
+                if (!name || !email || !subject || !message) {
+                    messageBox.innerHTML = '<div class="alert alert-danger">Vui lòng điền tất cả các trường bắt buộc.</div>';
+                    return;
+                }
+
+                // TODO: Thực hiện gửi form bằng fetch/AJAX đến endpoint server-side (ví dụ /contact/submit)
+                // Hiện tại giả lập thành công:
+                messageBox.innerHTML = '<div class="alert alert-success">Cảm ơn bạn! Chúng tôi đã nhận được yêu cầu và sẽ phản hồi trong vòng 24 giờ.</div>';
+                form.reset();
+            });
+
+            // Subscribe button sample (AJAX / server integration cần triển khai)
+            document.getElementById('subscribeBtn').addEventListener('click', function () {
+                var email = document.getElementById('subscribeEmail').value.trim();
+                if (!email) {
+                    alert('Vui lòng nhập email để đăng ký.');
+                    return;
+                }
+                alert('Cảm ơn! Email của bạn đã được ghi nhận.');
+            });
+        });
+    </script>
 </body>
 
 </html>
-
-
