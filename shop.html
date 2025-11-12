@@ -68,7 +68,7 @@
       {
         "@type": "Product",
         "@id": "https://yourdomain.com/san-pham/shop_01",
-        "name": "Oupidatat non - Áo Polo HKL (Đen)",
+        "name": "Oupidatat non - Áo Polo HKL",
         "image": ["https://yourdomain.com/assets/img/shop_01.jpg"],
         "description": "Áo Polo HKL chất liệu cotton cao cấp, co giãn, thoáng khí. Size M/L/XL.",
         "sku": "HKL-OP-001",
@@ -78,7 +78,7 @@
       {
         "@type": "Product",
         "@id": "https://yourdomain.com/san-pham/shop_02",
-        "name": "Oupidatat non - Áo Thun HKL (Xanh)",
+        "name": "Oupidatat non - Áo thun HKL",
         "image": ["https://yourdomain.com/assets/img/shop_02.jpg"],
         "description": "Áo thun HKL, vải mềm, giữ form tốt, phù hợp mặc hàng ngày.",
         "sku": "HKL-AT-002",
@@ -88,7 +88,7 @@
       {
         "@type": "Product",
         "@id": "https://yourdomain.com/san-pham/shop_03",
-        "name": "Oupidatat non - Áo Khoác HKL (Xám)",
+        "name": "Oupidatat non - Áo Khoác HKL",
         "image": ["https://yourdomain.com/assets/img/shop_03.jpg"],
         "description": "Áo khoác nhẹ HKL, chống gió, thích hợp du lịch và dạo phố.",
         "sku": "HKL-AK-003",
@@ -138,7 +138,7 @@
       {
         "@type": "Product",
         "@id": "https://yourdomain.com/san-pham/shop_08",
-        "name": "Oupidatat non - Quần Jeans HKL (Xanh đậm)",
+        "name": "Oupidatat non - Quần legging",
         "image": ["https://yourdomain.com/assets/img/shop_08.jpg"],
         "description": "Quần jeans co giãn, bền màu, nhiều size.",
         "sku": "HKL-QJ-008",
@@ -253,6 +253,11 @@
   <!-- Start Content -->
   <div class="container py-5">
     <div class="row">
+      <!-- Tiêu đề trang cho SEO -->
+      <div class="col-12 mb-4">
+        <h1 class="display-5 mb-3">Cửa hàng thời trang HKL Shop</h1>
+        <p class="lead text-muted">Khám phá bộ sưu tập áo, giày, túi xách và phụ kiện chính hãng từ HKL Shop. Chất lượng cao, giá cả hợp lý, giao hàng toàn quốc.</p>
+      </div>
 
       <aside class="col-lg-3">
         <h2 class="h4 pb-4">Danh mục sản phẩm</h2>
@@ -305,7 +310,9 @@
               <select class="form-control w-auto" aria-label="Sắp xếp sản phẩm">
                 <option>Nổi bật</option>
                 <option>A to Z</option>
-                <option>Sản phẩm</option>
+                <option>Giá thấp đến cao</option>
+                <option>Giá cao đến thấp</option>
+                <option>Sản phẩm mới</option>
               </select>
             </div>
           </div>
@@ -316,35 +323,23 @@
           <div class="col-md-4 mb-4">
             <div class="card mb-4 product-wap rounded-0">
               <div class="card rounded-0">
-                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg" alt="Oupidatat non - Áo Polo HKL đen" loading="lazy" width="600" height="800">
+                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg" alt="Oupidatat non - Áo Polo HKL đen chất liệu cotton cao cấp" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html" aria-label="Thêm vào yêu thích"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html" aria-label="Xem nhanh"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html" aria-label="Thêm vào giỏ"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Áo Polo HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Polo HKL</a>
+                <p class="text-muted small">Cotton cao cấp, co giãn, thoáng khí</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(45 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫6.200.000</p>
+                <p class="text-center mb-0 fw-bold">₫6.200.000</p>
               </div>
             </div>
           </div>
@@ -353,35 +348,23 @@
           <div class="col-md-4 mb-4">
             <div class="card mb-4 product-wap rounded-0">
               <div class="card rounded-0">
-                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg" alt="Oupidatat non - Áo Thun HKL xanh" loading="lazy" width="600" height="800">
+                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg" alt="Oupidatat non - Áo Thun HKL xanh vải mềm mại" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Áo Thun HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo thun HKL</a>
+                <p class="text-muted small">Vải mềm, giữ form tốt, mặc hàng ngày</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(32 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫2.500.000</p>
+                <p class="text-center mb-0 fw-bold">₫2.500.000</p>
               </div>
             </div>
           </div>
@@ -390,35 +373,23 @@
           <div class="col-md-4 mb-4">
             <div class="card mb-4 product-wap rounded-0">
               <div class="card rounded-0">
-                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg" alt="Oupidatat non - Áo Khoác HKL xám" loading="lazy" width="600" height="800">
+                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg" alt="Oupidatat non - Áo Khoác HKL xám chống gió du lịch" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Áo Khoác HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Khoác HKL</a>
+                <p class="text-muted small">Nhẹ, chống gió, phù hợp du lịch</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(56 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫3.500.000</p>
+                <p class="text-center mb-0 fw-bold">₫3.500.000</p>
               </div>
             </div>
           </div>
@@ -429,33 +400,21 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_04.jpg" alt="Oupidatat non - Áo Bomber HKL đỏ" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Áo Bomber HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Bomber HKL (Đỏ)</a>
+                <p class="text-muted small">Phong cách trẻ trung, phối layer thời thượng</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(28 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫2.990.000</p>
+                <p class="text-center mb-0 fw-bold">₫2.990.000</p>
               </div>
             </div>
           </div>
@@ -466,33 +425,21 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_05.jpg" alt="Oupidatat non - Sweater HKL xanh lá" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Sweater HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Sweater HKL (Xanh lá)</a>
+                <p class="text-muted small">Áo len ấm áp, form ôm, thích hợp thu đông</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(12 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫1.800.000</p>
+                <p class="text-center mb-0 fw-bold">₫1.800.000</p>
               </div>
             </div>
           </div>
@@ -503,33 +450,21 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_06.jpg" alt="Oupidatat non - Hoodie HKL đen" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Hoodie HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Hoodie HKL (Đen)</a>
+                <p class="text-muted small">Hoodie basic, vải nỉ cotton, phong cách streetwear</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(18 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫2.200.000</p>
+                <p class="text-center mb-0 fw-bold">₫2.200.000</p>
               </div>
             </div>
           </div>
@@ -540,33 +475,21 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_07.jpg" alt="Oupidatat non - Sơ mi HKL trắng" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Sơ mi HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Áo Sơ Mi HKL (Trắng)</a>
+                <p class="text-muted small">Sơ mi form chuẩn, chất liệu thoáng mát, công sở</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(25 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫2.700.000</p>
+                <p class="text-center mb-0 fw-bold">₫2.700.000</p>
               </div>
             </div>
           </div>
@@ -577,33 +500,21 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg" alt="Oupidatat non - Quần Jeans HKL xanh đậm" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Quần Jeans HKL">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Quần legging</a>
+                <p class="text-muted small">Jeans co giãn, bền màu, nhiều size</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(30 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫3.200.000</p>
+                <p class="text-center mb-0 fw-bold">₫3.200.000</p>
               </div>
             </div>
           </div>
@@ -614,38 +525,75 @@
               <div class="card rounded-0">
                 <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg" alt="Oupidatat non - Giày HKL Runner trắng" loading="lazy" width="600" height="800">
                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                  </ul>
+                  <a href="shop-single.html" class="btn btn-success" aria-label="Xem chi tiết Giày HKL Runner">Xem chi tiết</a>
                 </div>
               </div>
               <div class="card-body">
-                <a href="shop-single.html" class="h6 text-decoration-none">Oupidatat non</a>
-                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                  <li>M / L / X / XL</li>
-                  <li class="pt-2">
-                    <span class="product-color-dot color-dot-red rounded-circle"></span>
-                    <span class="product-color-dot color-dot-blue rounded-circle ms-1"></span>
-                    <span class="product-color-dot color-dot-black rounded-circle ms-1"></span>
-                  </li>
-                </ul>
+                <a href="shop-single.html" class="h6 text-decoration-none">Giày HKL Runner (Trắng)</a>
+                <p class="text-muted small">Giày thể thao nhẹ, êm chân, chạy bộ & đi hàng ngày</p>
                 <ul class="list-unstyled d-flex justify-content-center mb-1">
-                  <li>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-warning fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                    <i class="text-muted fa fa-star" aria-hidden="true"></i>
-                  </li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-warning"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <li class="text-muted"><i class="fa fa-star fa-sm" aria-hidden="true"></i></li>
+                  <span class="text-muted small ms-2">(22 đánh giá)</span>
                 </ul>
-                <p class="text-center mb-0">₫1.500.000</p>
+                <p class="text-center mb-0 fw-bold">₫1.500.000</p>
               </div>
             </div>
           </div>
 
         </div>
+
+        <!-- Thêm phần mô tả nội dung SEO -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <h2 class="h3 mb-4">Tại sao chọn HKL Shop?</h2>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <h3 class="h5"><i class="fas fa-shipping-fast text-success me-2" aria-hidden="true"></i>Giao hàng nhanh</h3>
+                <p class="text-muted">Giao hàng toàn quốc trong 1-3 ngày, miễn phí với đơn hàng trên 500.000đ</p>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h3 class="h5"><i class="fas fa-redo text-success me-2" aria-hidden="true"></i>Đổi trả 7 ngày</h3>
+                <p class="text-muted">Không hài lòng? Đổi trả hoàn toàn miễn phí trong 7 ngày đầu tiên</p>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h3 class="h5"><i class="fas fa-shield-alt text-success me-2" aria-hidden="true"></i>Chính hãng 100%</h3>
+                <p class="text-muted">Tất cả sản phẩm đều là hàng chính hãng, có bảo hành từ nhà sản xuất</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Schema markup cho Product Collection -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Cửa hàng thời trang HKL Shop",
+          "description": "Khám phá bộ sưu tập áo, giày, túi xách và phụ kiện chính hãng",
+          "url": "https://yourdomain.com/shop.html",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://yourdomain.com/san-pham/shop_01",
+                "name": "Áo Polo HKL"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://yourdomain.com/san-pham/shop_02",
+                "name": "Áo thun HKL"
+              }
+            ]
+          }
+        }
+        </script>
 
         <div class="row">
           <div class="col-12">
@@ -827,5 +775,4 @@
 </body>
 
 </html>
-
 
